@@ -1,4 +1,3 @@
-
 import React from 'react';
 import SectionTitle from '@/components/SectionTitle';
 import ProjectItem from '@/components/ProjectItem';
@@ -16,6 +15,9 @@ const Index = () => {
             member @ <a href="https://masterclass.tum.de/" className="hover:text-primary transition-colors">tum entrepreneurial masterclass</a>
           </p>
         </div>
+
+        {/* Divider */}
+        <div className="border-t border-muted my-8"></div>
 
         {/* Projects Section */}
         <div className="mb-12">
@@ -44,6 +46,9 @@ const Index = () => {
           />
         </div>
 
+        {/* Divider */}
+        <div className="border-t border-muted my-8"></div>
+
         {/* Currently Building Section */}
         <div className="mb-12">
           <SectionTitle title="currently building" />
@@ -54,6 +59,9 @@ const Index = () => {
             ]}
           />
         </div>
+
+        {/* Divider */}
+        <div className="border-t border-muted my-8"></div>
 
         {/* Research Section */}
         <div className="mb-12">
@@ -73,6 +81,9 @@ const Index = () => {
             ]}
           />
         </div>
+
+        {/* Divider */}
+        <div className="border-t border-muted my-8"></div>
 
         {/* Writings Section */}
         <div className="mb-12">
