@@ -13,7 +13,7 @@ const Index = () => {
           <h1 className="text-2xl md:text-3xl font-bold mb-2">hi, i'm ahmet|</h1>
           <p className="text-muted-foreground">
             cs grad student @ <a href="https://tum.de" className="hover:text-primary transition-colors">tum</a> | 
-            member @ <a href="https://www.tum.de/en/studies/during-your-studies/entrepreneurship/entrepreneurial-masterclass" className="hover:text-primary transition-colors">tum entrepreneurial masterclass</a>
+            member @ <a href="https://masterclass.tum.de/" className="hover:text-primary transition-colors">tum entrepreneurial masterclass</a>
           </p>
         </div>
 
