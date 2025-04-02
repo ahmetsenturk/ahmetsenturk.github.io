@@ -5,14 +5,14 @@ import SocialLinks from '@/components/SocialLinks';
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-background text-foreground font-mono p-4 md:p-0">
+    <div className="min-h-screen bg-gray-900 text-foreground font-mono p-4 md:p-0">
       <div className="max-w-3xl mx-auto py-16 md:py-24">
         {/* Header */}
         <div className="mb-12">
           <h1 className="text-2xl md:text-3xl font-bold mb-2">hi, i'm ahmet</h1>
           <p className="text-muted-foreground">
-            cs grad student @ <a href="https://tum.de" className="hover:text-primary transition-colors">tum</a> | 
-            member @ <a href="https://masterclass.tum.de/" className="hover:text-primary transition-colors">tum entrepreneurial masterclass</a>
+            cs grad student @ <a href="https://tum.de" className="hover:text-primary transition-colors underline">tum</a> | 
+            member @ <a href="https://masterclass.tum.de/" className="hover:text-primary transition-colors underline">tum entrepreneurial masterclass</a>
           </p>
         </div>
 

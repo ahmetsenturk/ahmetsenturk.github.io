@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 interface Link {
@@ -28,7 +27,7 @@ const ProjectItem: React.FC<ProjectItemProps> = ({ title, description, links }) 
                   href={link.url} 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="text-muted-foreground hover:text-primary transition-colors"
+                  className="text-muted-foreground hover:text-primary transition-colors underline"
                 >
                   {link.label}
                 </a>
