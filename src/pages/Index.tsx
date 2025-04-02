@@ -10,7 +10,7 @@ const Index = () => {
       <div className="max-w-3xl mx-auto py-16 md:py-24">
         {/* Header */}
         <div className="mb-12">
-          <h1 className="text-2xl md:text-3xl font-bold mb-2">hi, i'm ahmet|</h1>
+          <h1 className="text-2xl md:text-3xl font-bold mb-2">hi, i'm ahmet</h1>
           <p className="text-muted-foreground">
             cs grad student @ <a href="https://tum.de" className="hover:text-primary transition-colors">tum</a> | 
             member @ <a href="https://masterclass.tum.de/" className="hover:text-primary transition-colors">tum entrepreneurial masterclass</a>
@@ -22,7 +22,7 @@ const Index = () => {
           <SectionTitle title="projects" />
           
           <ProjectItem
-            title="lecture streaming application for TUM - best team award @ iPraktikum TUM"
+            title="GoCast: lecture streaming application for TUM - best team award @ iPraktikum TUM"
             links={[
               { label: "github", url: "https://github.com/TUM-Dev/gocast_mobile" },
               { label: "project page", url: "https://ase.cit.tum.de/projects/ipraktikum/23w/tum/" }
@@ -30,14 +30,14 @@ const Index = () => {
           />
           
           <ProjectItem
-            title="personalized trip scheduling application"
+            title="OwnTransport: personalized trip scheduling application"
             links={[
               { label: "project page", url: "https://ase.cit.tum.de/projects/ipraktikum/23s/iabg/" }
             ]}
           />
           
           <ProjectItem
-            title="vehicle to grid incentivization app - track winner @ tech challenge TUM"
+            title="Charge2Change: vehicle to grid incentivization app - track winner @ tech challenge TUM"
             links={[
               { label: "github", url: "https://github.com/ahmetsenturk/Charge2Change" }
             ]}
@@ -62,9 +62,8 @@ const Index = () => {
           <ProjectItem
             title="Factors Influence the Success of Communities of Practices in Large Agile Organizations at ICEIS 2025"
             links={[
-              { label: "paper", url: "#" }
+              { label: "(paper link in progress)", url: "#" }
             ]}
-            description="(in progress)"
           />
           
           <ProjectItem
