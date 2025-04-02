@@ -50,7 +50,7 @@ const Index = () => {
           <ProjectItem 
             title="klaro.care - personalized care assistant for caregiving relatives"
             links={[
-              { label: "website", url: "#" }
+              { label: "website", url: "https://klaro.care/" }
             ]}
           />
         </div>
