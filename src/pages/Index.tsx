@@ -24,21 +24,22 @@ const Index = () => {
           <ProjectItem
             title="lecture streaming application for TUM - best team award @ iPraktikum TUM"
             links={[
-              { label: "github", url: "https://github.com" }
+              { label: "github", url: "https://github.com/TUM-Dev/gocast_mobile" },
+              { label: "project page", url: "https://ase.cit.tum.de/projects/ipraktikum/23w/tum/" }
             ]}
           />
           
           <ProjectItem
             title="personalized trip scheduling application"
             links={[
-              { label: "github", url: "https://github.com" }
+              { label: "project page", url: "https://ase.cit.tum.de/projects/ipraktikum/23s/iabg/" }
             ]}
           />
           
           <ProjectItem
             title="vehicle to grid incentivization app - track winner @ tech challenge TUM"
             links={[
-              { label: "github", url: "https://github.com" }
+              { label: "github", url: "https://github.com/ahmetsenturk/Charge2Change" }
             ]}
           />
         </div>
@@ -63,12 +64,13 @@ const Index = () => {
             links={[
               { label: "paper", url: "#" }
             ]}
+            description="(in progress)"
           />
           
           <ProjectItem
             title="bachelor's thesis: Deep Learning for Smartwatch Based Continuous Authentication"
             links={[
-              { label: "thesis", url: "#" }
+              { label: "project page", url: "https://www.cmpe.boun.edu.tr/content/deep-learning-smartwatch-based-continuous-authentication-0" }
             ]}
           />
         </div>
@@ -76,8 +78,18 @@ const Index = () => {
         {/* Writings Section */}
         <div className="mb-12">
           <SectionTitle title="writings" />
-          <ProjectItem title="Sprint Retrospective: Maximizing Team Potential in Agile" />
-          <ProjectItem title="The Role of Artificial Intelligence in Future Technology" />
+          <ProjectItem 
+            title="Sprint Retrospective: Maximizing Team Potential in Agile" 
+            links={[
+              { label: "medium", url: "https://medium.com/@ahmetsenturk/sprint-retrospective-maximizing-team-potential-in-agile-4c244611976e" }
+            ]}
+          />
+          <ProjectItem 
+            title="The Role of Artificial Intelligence in Future Technology" 
+            links={[
+              { label: "medium", url: "https://medium.com/@ahmetsenturk/the-role-of-artificial-intelligence-in-future-technology-b225658a82dd" }
+            ]}
+          />
         </div>
 
         {/* Divider */}
